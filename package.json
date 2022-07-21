@@ -1,0 +1,27 @@
+{
+  "name": "je-full-stack",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "dashify": "^2.0.0",
+    "firebase-admin": "^11.0.0",
+    "next": "12.2.2",
+    "next-with-less": "^2.0.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "rsuite": "^5.16.1",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "eslint": "8.20.0",
+    "eslint-config-next": "12.2.2"
+  }
+}
