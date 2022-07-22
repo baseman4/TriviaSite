@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
+import Link from "next/link"
 export default function PolicyCard(){
     return(
         <>
@@ -6,7 +8,7 @@ export default function PolicyCard(){
           <h2 className="display-5 Brand-Text-B">Policies</h2>
           <p className="lead">Keep up to date with our company policies.</p>
         </div>
-        <a className="w-100 btn btn-outline-secondary Brand-BG-O " href="/employee/policy">See Policies</a>
+        <Link><a className="w-100 btn btn-outline-secondary Brand-BG-O " href="/employee/policy">See Policies</a></Link>
         </div>
         </>
     )

@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
+import Link from "next/dist/client/link"
 export default function ProcedureCard(){
     return(
         <>
@@ -6,7 +8,7 @@ export default function ProcedureCard(){
           <h2 className="display-5 Brand-Text-O">Procedures</h2>
           <p className="lead">Keep up to date with our company procedures.</p>
         </div>
-        <a className="w-100 btn btn-outline-secondary Brand-BG-B " href="/employee/procedures">See Procedures</a>
+        <Link><a className="w-100 btn btn-outline-secondary Brand-BG-B " href="/employee/procedures">See Procedures</a></Link>
         </div>
         </>
     )
