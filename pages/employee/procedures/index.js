@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
-import db from "../../../../je-full-stack/utils/db";
+import db from "../../../utils/db";
 import Link from 'next/link';
 export async function getStaticProps() {
    const  procedures = await db.collection('procedures').get();
