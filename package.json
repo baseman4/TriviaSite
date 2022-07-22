@@ -2,7 +2,8 @@
   "name": "je-full-stack",
   "version": "0.1.0",
   "engines":{
-    "node": "16.x"
+    "node": "16.x",
+    "typescript":"4.7.4"
   },
   "private": true,
   "scripts": {
