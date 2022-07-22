@@ -2,8 +2,7 @@
   "name": "je-full-stack",
   "version": "0.1.0",
   "engines":{
-    "node": "16.x",
-    "typescript":"4.7.4"
+    "node": "16.x"
   },
   "private": true,
   "scripts": {
@@ -22,7 +21,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "rsuite": "^5.16.1",
-    "styled-components": "^5.3.5"
+    "styled-components": "^5.3.5",
+    "typescript": "4.7.4"
   },
   "devDependencies": {
     "eslint": "8.20.0",
